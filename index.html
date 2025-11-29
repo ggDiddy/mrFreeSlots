@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mr Free Slots - Your trusted guide to online casinos. Expert reviews, exclusive bonuses, and beginner-friendly guides for new players.">
+    <meta name="keywords" content="online casino, casino bonuses, free spins, casino reviews, new players, welcome bonus">
+    <title>Mr Free Slots - Best Online Casino Reviews & Bonuses for New Players</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="Mr Free Slots Logo">
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#top-casinos" class="nav-link">Top Casinos</a></li>
+                <li><a href="#bonuses" class="nav-link">Bonuses</a></li>
+                <li><a href="#guides" class="nav-link">Beginner Guides</a></li>
+                <li><a href="#quiz" class="nav-link">Casino Finder</a></li>
+                <li><a href="#comparison" class="nav-link">Compare</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">🎰 Welcome New Players!</div>
+            <h1 class="hero-title">Discover Your Perfect Online Casino</h1>
+            <p class="hero-subtitle">Expert reviews, exclusive bonuses, and beginner friendly guides to help you start your casino journey safely and confidently.</p>
+            <div class="hero-buttons">
+                <a href="#top-casinos" class="btn btn-primary">Find My Casino</a>
+                <a href="#quiz" class="btn btn-secondary">Take Casino Quiz</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Casinos Reviewed</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">$10M+</div>
+                    <div class="stat-label">Bonuses Available</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Trusted Reviews</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Indicators -->
+    <section class="trust-bar">
+        <div class="container">
+            <div class="trust-items">
+                <div class="trust-item">
+                    <span class="trust-icon">✓</span>
+                    <span>Licensed Casinos Only</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">🔒</span>
+                    <span>Secure Platforms</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">⚡</span>
+                    <span>Fast Payouts</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">🎁</span>
+                    <span>Exclusive Bonuses</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Casinos Section -->
+    <section class="section" id="top-casinos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Top Rated Casinos for New Players</h2>
+                <p class="section-subtitle">Carefully selected and reviewed casinos perfect for beginners</p>
+            </div>
+            
+            <div class="casino-grid">
+                <!-- Casino 1 -->
+                <div class="casino-card featured" data-bonus="200" data-games="3000" data-payout="fast">
+                    <div class="casino-badge">⭐ #1 Choice</div>
+                    <div class="casino-header">
+                        <div class="casino-logo">🎰</div>
+                        <div class="casino-info">
+                            <h3 class="casino-name">Lucky Spin Casino</h3>
+                            <div class="casino-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">9.8/10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="casino-bonus-highlight">
+                        <div class="bonus-amount">200% up to $2,000</div>
+                        <div class="bonus-extra">+ 100 Free Spins</div>
+                    </div>
+                    <div class="casino-features">
+                        <div class="feature">✓ 3,000+ Games</div>
+                        <div class="feature">✓ 24/7 Support</div>
+                        <div class="feature">✓ Instant Withdrawals</div>
+                        <div class="feature">✓ Crypto Accepted</div>
+                    </div>
+                    <p class="casino-description">Perfect for beginners! Lucky Spin offers an intuitive interface, generous welcome package, and excellent customer support to guide new players.</p>
+                    <div class="casino-buttons">
+                        <a href="#lucky-spin-casino" class="btn btn-primary btn-full" target="_blank" rel="noopener">Claim Bonus</a>
+                        <button class="btn btn-secondary btn-full" onclick="openReviewModal('lucky-spin')">Full Review</button>
+                    </div>
+                </div>
+
+                <!-- Casino 2 -->
+                <div class="casino-card" data-bonus="150" data-games="2500" data-payout="fast">
+                    <div class="casino-badge">🔥 Hot Offer</div>
+                    <div class="casino-header">
+                        <div class="casino-logo">🎲</div>
+                        <div class="casino-info">
+                            <h3 class="casino-name">Royal Vegas Palace</h3>
+                            <div class="casino-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">9.6/10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="casino-bonus-highlight">
+                        <div class="bonus-amount">150% up to $1,500</div>
+                        <div class="bonus-extra">+ 75 Free Spins</div>
+                    </div>
+                    <div class="casino-features">
+                        <div class="feature">✓ 2,500+ Games</div>
+                        <div class="feature">✓ Live Dealers</div>
+                        <div class="feature">✓ Mobile App</div>
+                        <div class="feature">✓ VIP Program</div>
+                    </div>
+                    <p class="casino-description">Established brand with excellent reputation. Features a beginner-friendly tutorial system and low minimum deposits.</p>
+                    <div class="casino-buttons">
+                        <a href="#royal-vegas-palace" class="btn btn-primary btn-full" target="_blank" rel="noopener">Claim Bonus</a>
+                        <button class="btn btn-secondary btn-full" onclick="openReviewModal('royal-vegas')">Full Review</button>
+                    </div>
+                </div>
+
+                <!-- Casino 3 -->
+                <div class="casino-card" data-bonus="100" data-games="1800" data-payout="average">
+                    <div class="casino-badge">💎 Premium</div>
+                    <div class="casino-header">
+                        <div class="casino-logo">🃏</div>
+                        <div class="casino-info">
+                            <h3 class="casino-name">Diamond Club Casino</h3>
+                            <div class="casino-rating">
+                                <span class="stars">★★★★☆</span>
+                                <span class="rating-text">9.4/10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="casino-bonus-highlight">
+                        <div class="bonus-amount">100% up to $1,000</div>
+                        <div class="bonus-extra">+ 50 Free Spins</div>
+                    </div>
+                    <div class="casino-features">
+                        <div class="feature">✓ 1,800+ Games</div>
+                        <div class="feature">✓ Exclusive Slots</div>
+                        <div class="feature">✓ Weekly Cashback</div>
+                        <div class="feature">✓ Loyalty Rewards</div>
+                    </div>
+                    <p class="casino-description">High-quality gaming experience with exclusive titles. Great for players who value premium game selection.</p>
+                    <div class="casino-buttons">
+                        <a href="#diamond-club-casino" class="btn btn-primary btn-full" target="_blank" rel="noopener">Claim Bonus</a>
+                        <button class="btn btn-secondary btn-full" onclick="openReviewModal('diamond-club')">Full Review</button>
+                    </div>
+                </div>
+
+                <!-- Casino 4 -->
+                <div class="casino-card" data-bonus="250" data-games="3500" data-payout="fast">
+                    <div class="casino-badge">🎁 Best Bonus</div>
+                    <div class="casino-header">
+                        <div class="casino-logo">💰</div>
+                        <div class="casino-info">
+                            <h3 class="casino-name">Mega Fortune Slots</h3>
+                            <div class="casino-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">9.7/10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="casino-bonus-highlight">
+                        <div class="bonus-amount">250% up to $2,500</div>
+                        <div class="bonus-extra">+ 200 Free Spins</div>
+                    </div>
+                    <div class="casino-features">
+                        <div class="feature">✓ 3,500+ Games</div>
+                        <div class="feature">✓ Progressive Jackpots</div>
+                        <div class="feature">✓ Same-Day Payouts</div>
+                        <div class="feature">✓ No Wagering Bonuses</div>
+                    </div>
+                    <p class="casino-description">Massive game library and industry-leading bonuses. Perfect for players who want maximum value.</p>
+                    <div class="casino-buttons">
+                        <a href="#mega-fortune-slots" class="btn btn-primary btn-full" target="_blank" rel="noopener">Claim Bonus</a>
+                        <button class="btn btn-secondary btn-full" onclick="openReviewModal('mega-fortune')">Full Review</button>
+                    </div>
+                </div>
+
+                <!-- Casino 5 -->
+                <div class="casino-card" data-bonus="175" data-games="2200" data-payout="fast">
+                    <div class="casino-badge">🚀 Fast Payouts</div>
+                    <div class="casino-header">
+                        <div class="casino-logo">⚡</div>
+                        <div class="casino-info">
+                            <h3 class="casino-name">Turbo Casino</h3>
+                            <div class="casino-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">9.5/10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="casino-bonus-highlight">
+                        <div class="bonus-amount">175% up to $1,750</div>
+                        <div class="bonus-extra">+ 150 Free Spins</div>
+                    </div>
+                    <div class="casino-features">
+                        <div class="feature">✓ 2,200+ Games</div>
+                        <div class="feature">✓ Instant Deposits</div>
+                        <div class="feature">✓ 10-Min Withdrawals</div>
+                        <div class="feature">✓ E-Wallet Friendly</div>
+                    </div>
+                    <p class="casino-description">Speed is key! Lightning-fast transactions and responsive platform perfect for modern players.</p>
+                    <div class="casino-buttons">
+                        <a href="#turbo-casino" class="btn btn-primary btn-full" target="_blank" rel="noopener">Claim Bonus</a>
+                        <button class="btn btn-secondary btn-full" onclick="openReviewModal('turbo-casino')">Full Review</button>
+                    </div>
+                </div>
+
+                <!-- Casino 6 -->
+                <div class="casino-card" data-bonus="125" data-games="2800" data-payout="average">
+                    <div class="casino-badge">📱 Mobile First</div>
+                    <div class="casino-header">
+                        <div class="casino-logo">📱</div>
+                        <div class="casino-info">
+                            <h3 class="casino-name">Pocket Casino Pro</h3>
+                            <div class="casino-rating">
+                                <span class="stars">★★★★☆</span>
+                                <span class="rating-text">9.3/10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="casino-bonus-highlight">
+                        <div class="bonus-amount">125% up to $1,250</div>
+                        <div class="bonus-extra">+ 100 Free Spins</div>
+                    </div>
+                    <div class="casino-features">
+                        <div class="feature">✓ 2,800+ Mobile Games</div>
+                        <div class="feature">✓ iOS & Android App</div>
+                        <div class="feature">✓ Touch-Optimized</div>
+                        <div class="feature">✓ 5G Ready</div>
+                    </div>
+                    <p class="casino-description">Best mobile casino experience. Play anywhere with seamless touch controls and optimized performance.</p>
+                    <div class="casino-buttons">
+                        <a href="#pocket-casino-pro" class="btn btn-primary btn-full" target="_blank" rel="noopener">Claim Bonus</a>
+                        <button class="btn btn-secondary btn-full" onclick="openReviewModal('pocket-casino')">Full Review</button>
+                    </div>
+                </div>
+
+                <!-- Casino 7 -->
+                <div class="casino-card" data-bonus="300" data-games="1500" data-payout="fast">
+                    <div class="casino-badge">🆕 New</div>
+                    <div class="casino-header">
+                        <div class="casino-logo">🌟</div>
+                        <div class="casino-info">
+                            <h3 class="casino-name">Nova Gaming</h3>
+                            <div class="casino-rating">
+                                <span class="stars">★★★★☆</span>
+                                <span class="rating-text">9.2/10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="casino-bonus-highlight">
+                        <div class="bonus-amount">300% up to $3,000</div>
+                        <div class="bonus-extra">+ 250 Free Spins</div>
+                    </div>
+                    <div class="casino-features">
+                        <div class="feature">✓ 1,500+ New Games</div>
+                        <div class="feature">✓ Gamification</div>
+                        <div class="feature">✓ Social Features</div>
+                        <div class="feature">✓ Tournament Ready</div>
+                    </div>
+                    <p class="casino-description">Fresh and innovative platform with gamification elements. Great for players seeking modern gaming experience.</p>
+                    <div class="casino-buttons">
+                        <a href="#nova-gaming" class="btn btn-primary btn-full" target="_blank" rel="noopener">Claim Bonus</a>
+                        <button class="btn btn-secondary btn-full" onclick="openReviewModal('nova-gaming')">Full Review</button>
+                    </div>
+                </div>
+
+                <!-- Casino 8 -->
+                <div class="casino-card" data-bonus="100" data-games="2000" data-payout="fast">
+                    <div class="casino-badge">🎓 Beginner Friendly</div>
+                    <div class="casino-header">
+                        <div class="casino-logo">🎯</div>
+                        <div class="casino-info">
+                            <h3 class="casino-name">Easy Start Casino</h3>
+                            <div class="casino-rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">9.6/10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="casino-bonus-highlight">
+                        <div class="bonus-amount">100% up to $1,000</div>
+                        <div class="bonus-extra">+ 50 Free Spins</div>
+                    </div>
+                    <div class="casino-features">
+                        <div class="feature">✓ 2,000+ Games</div>
+                        <div class="feature">✓ Free Play Mode</div>
+                        <div class="feature">✓ Video Tutorials</div>
+                        <div class="feature">✓ Step-by-Step Guides</div>
+                    </div>
+                    <p class="casino-description">Specifically designed for beginners with tutorials, free play options, and helpful support team.</p>
+                    <div class="casino-buttons">
+                        <a href="#easy-start-casino" class="btn btn-primary btn-full" target="_blank" rel="noopener">Claim Bonus</a>
+                        <button class="btn btn-secondary btn-full" onclick="openReviewModal('easy-start')">Full Review</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonus Comparison Table -->
+    <section class="section section-alt" id="bonuses">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Welcome Bonus Comparison</h2>
+                <p class="section-subtitle">Compare the best welcome offers for new players at a glance</p>
+            </div>
+
+            <div class="table-container">
+                <table class="bonus-table">
+                    <thead>
+                        <tr>
+                            <th>Casino</th>
+                            <th>Welcome Bonus</th>
+                            <th>Free Spins</th>
+                            <th>Wagering</th>
+                            <th>Min. Deposit</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="featured-row">
+                            <td><strong>Lucky Spin Casino</strong></td>
+                            <td class="highlight">200% up to $2,000</td>
+                            <td>100 Spins</td>
+                            <td>35x</td>
+                            <td>$20</td>
+                            <td><a href="#lucky-spin-casino" class="btn btn-small btn-primary">Claim</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Royal Vegas Palace</strong></td>
+                            <td class="highlight">150% up to $1,500</td>
+                            <td>75 Spins</td>
+                            <td>40x</td>
+                            <td>$25</td>
+                            <td><a href="#royal-vegas-palace" class="btn btn-small btn-primary">Claim</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Diamond Club Casino</strong></td>
+                            <td>100% up to $1,000</td>
+                            <td>50 Spins</td>
+                            <td>30x</td>
+                            <td>$10</td>
+                            <td><a href="#diamond-club-casino" class="btn btn-small btn-primary">Claim</a></td>
+                        </tr>
+                        <tr class="featured-row">
+                            <td><strong>Mega Fortune Slots</strong></td>
+                            <td class="highlight">250% up to $2,500</td>
+                            <td>200 Spins</td>
+                            <td>25x</td>
+                            <td>$30</td>
+                            <td><a href="#mega-fortune-slots" class="btn btn-small btn-primary">Claim</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Turbo Casino</strong></td>
+                            <td class="highlight">175% up to $1,750</td>
+                            <td>150 Spins</td>
+                            <td>35x</td>
+                            <td>$20</td>
+                            <td><a href="#turbo-casino" class="btn btn-small btn-primary">Claim</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pocket Casino Pro</strong></td>
+                            <td>125% up to $1,250</td>
+                            <td>100 Spins</td>
+                            <td>40x</td>
+                            <td>$15</td>
+                            <td><a href="#pocket-casino-pro" class="btn btn-small btn-primary">Claim</a></td>
+                        </tr>
+                        <tr class="featured-row">
+                            <td><strong>Nova Gaming</strong></td>
+                            <td class="highlight">300% up to $3,000</td>
+                            <td>250 Spins</td>
+                            <td>45x</td>
+                            <td>$50</td>
+                            <td><a href="#nova-gaming" class="btn btn-small btn-primary">Claim</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Easy Start Casino</strong></td>
+                            <td>100% up to $1,000</td>
+                            <td>50 Spins</td>
+                            <td>30x</td>
+                            <td>$10</td>
+                            <td><a href="#easy-start-casino" class="btn btn-small btn-primary">Claim</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="bonus-calculator" id="bonusCalculator">
+                <h3>💰 Bonus Calculator</h3>
+                <p>Calculate your potential bonus based on your deposit amount</p>
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="depositAmount">Deposit Amount ($)</label>
+                        <input type="number" id="depositAmount" min="10" max="10000" value="100" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="bonusPercentage">Bonus Percentage (%)</label>
+                        <select id="bonusPercentage" class="form-input">
+                            <option value="100">100%</option>
+                            <option value="125">125%</option>
+                            <option value="150">150%</option>
+                            <option value="175">175%</option>
+                            <option value="200" selected>200%</option>
+                            <option value="250">250%</option>
+                            <option value="300">300%</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary" onclick="calculateBonus()">Calculate</button>
+                </div>
+                <div class="calculator-result" id="calculatorResult"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Spins & No Deposit Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Free Spins & No Deposit Bonuses</h2>
+                <p class="section-subtitle">Try before you deposit - risk-free bonuses for new players</p>
+            </div>
+
+            <div class="bonus-offers-grid">
+                <div class="bonus-offer-card">
+                    <div class="bonus-offer-badge">🎁 No Deposit</div>
+                    <h3>50 Free Spins</h3>
+                    <p class="offer-casino">Lucky Spin Casino</p>
+                    <p class="offer-description">Get 50 free spins on Starburst with no deposit required. Perfect for trying out the casino risk-free!</p>
+                    <ul class="offer-terms">
+                        <li>✓ No deposit needed</li>
+                        <li>✓ 35x wagering</li>
+                        <li>✓ New players only</li>
+                        <li>✓ Valid for 7 days</li>
+                    </ul>
+                    <a href="#lucky-spin-no-deposit" class="btn btn-primary btn-full">Claim Free Spins</a>
+                </div>
+
+                <div class="bonus-offer-card">
+                    <div class="bonus-offer-badge">💎 No Deposit</div>
+                    <h3>$25 Free Bonus</h3>
+                    <p class="offer-casino">Diamond Club Casino</p>
+                    <p class="offer-description">Receive $25 free bonus cash to explore our game library without risking your own money.</p>
+                    <ul class="offer-terms">
+                        <li>✓ $25 free bonus</li>
+                        <li>✓ 50x wagering</li>
+                        <li>✓ Use code: WELCOME25</li>
+                        <li>✓ Max cashout $100</li>
+                    </ul>
+                    <a href="#diamond-no-deposit" class="btn btn-primary btn-full">Claim Bonus</a>
+                </div>
+
+                <div class="bonus-offer-card">
+                    <div class="bonus-offer-badge">🔥 Free Spins</div>
+                    <h3>100 Free Spins</h3>
+                    <p class="offer-casino">Mega Fortune Slots</p>
+                    <p class="offer-description">Deposit $20 and get 100 free spins on popular slots. All winnings are yours!</p>
+                    <ul class="offer-terms">
+                        <li>✓ 100 free spins</li>
+                        <li>✓ Min deposit $20</li>
+                        <li>✓ 20x wagering</li>
+                        <li>✓ No max cashout</li>
+                    </ul>
+                    <a href="#mega-fortune-free-spins" class="btn btn-primary btn-full">Get Spins</a>
+                </div>
+
+                <div class="bonus-offer-card">
+                    <div class="bonus-offer-badge">⚡ Limited Time</div>
+                    <h3>250 Free Spins Pack</h3>
+                    <p class="offer-casino">Turbo Casino</p>
+                    <p class="offer-description">Massive free spins package spread over your first 5 deposits. Maximum value!</p>
+                    <ul class="offer-terms">
+                        <li>✓ 250 total spins</li>
+                        <li>✓ Spread over 5 deposits</li>
+                        <li>✓ 30x wagering</li>
+                        <li>✓ Popular games</li>
+                    </ul>
+                    <a href="#turbo-free-spins" class="btn btn-primary btn-full">Claim Pack</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Casino Finder Quiz (UNIQUE FEATURE) -->
+    <section class="section section-alt" id="quiz">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🎯 Find Your Perfect Casino</h2>
+                <p class="section-subtitle">Answer a few questions and we'll recommend the ideal casino for you</p>
+            </div>
+
+            <div class="quiz-container" id="quizContainer">
+                <div class="quiz-progress">
+                    <div class="quiz-progress-bar" id="quizProgressBar"></div>
+                </div>
+
+                <div class="quiz-question active" data-question="1">
+                    <h3>What's most important to you?</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option" data-value="bonus">💰 Biggest Bonuses</button>
+                        <button class="quiz-option" data-value="games">🎮 Game Variety</button>
+                        <button class="quiz-option" data-value="speed">⚡ Fast Payouts</button>
+                        <button class="quiz-option" data-value="mobile">📱 Mobile Experience</button>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-question="2">
+                    <h3>What's your experience level?</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option" data-value="beginner">🎓 Complete Beginner</button>
+                        <button class="quiz-option" data-value="casual">🎯 Casual Player</button>
+                        <button class="quiz-option" data-value="experienced">⭐ Experienced</button>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-question="3">
+                    <h3>What type of games do you prefer?</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option" data-value="slots">🎰 Slots</button>
+                        <button class="quiz-option" data-value="table">🃏 Table Games</button>
+                        <button class="quiz-option" data-value="live">👥 Live Dealers</button>
+                        <button class="quiz-option" data-value="all">🌟 All of Above</button>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-question="4">
+                    <h3>What's your typical deposit amount?</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option" data-value="low">💵 Under $50</button>
+                        <button class="quiz-option" data-value="medium">💰 $50 - $200</button>
+                        <button class="quiz-option" data-value="high">💎 Over $200</button>
+                    </div>
+                </div>
+
+                <div class="quiz-result" id="quizResult">
+                    <h3>Your Perfect Casino Match!</h3>
+                    <div id="quizRecommendation"></div>
+                    <button class="btn btn-secondary" onclick="restartQuiz()">Take Quiz Again</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beginner's Guides Section -->
+    <section class="section" id="guides">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Beginner's Guide to Online Casinos</h2>
+                <p class="section-subtitle">Everything you need to know to start playing safely and confidently</p>
+            </div>
+
+            <div class="guides-grid">
+                <div class="guide-card">
+                    <div class="guide-icon">📚</div>
+                    <h3>Getting Started</h3>
+                    <p>Learn the basics of online casinos, from choosing a platform to making your first deposit.</p>
+                    <button class="btn btn-secondary" onclick="openGuideModal('getting-started')">Read Guide</button>
+                </div>
+
+                <div class="guide-card">
+                    <div class="guide-icon">🎰</div>
+                    <h3>Understanding Slots</h3>
+                    <p>Master slot machine mechanics, paylines, RTP, volatility, and how to maximize your chances.</p>
+                    <button class="btn btn-secondary" onclick="openGuideModal('slots-guide')">Read Guide</button>
+                </div>
+
+                <div class="guide-card">
+                    <div class="guide-icon">🃏</div>
+                    <h3>Table Games Basics</h3>
+                    <p>Introduction to blackjack, roulette, baccarat, and poker - rules and beginner strategies.</p>
+                    <button class="btn btn-secondary" onclick="openGuideModal('table-games')">Read Guide</button>
+                </div>
+
+                <div class="guide-card">
+                    <div class="guide-icon">💰</div>
+                    <h3>Bonus Terms Explained</h3>
+                    <p>Understand wagering requirements, game contributions, and how to clear bonus conditions.</p>
+                    <button class="btn btn-secondary" onclick="openGuideModal('bonus-terms')">Read Guide</button>
+                </div>
+
+                <div class="guide-card">
+                    <div class="guide-icon">💳</div>
+                    <h3>Payment Methods</h3>
+                    <p>Guide to deposits and withdrawals - credit cards, e-wallets, crypto, and bank transfers.</p>
+                    <button class="btn btn-secondary" onclick="openGuideModal('payments')">Read Guide</button>
+                </div>
+
+                <div class="guide-card">
+                    <div class="guide-icon">🛡️</div>
+                    <h3>Staying Safe</h3>
+                    <p>How to verify casino licenses, protect your account, and practice responsible gambling.</p>
+                    <button class="btn btn-secondary" onclick="openGuideModal('safety')">Read Guide</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Casino Comparison Tool -->
+    <section class="section section-alt" id="comparison">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Compare Casinos Side-by-Side</h2>
+                <p class="section-subtitle">Select up to 3 casinos to compare features and bonuses</p>
+            </div>
+
+            <div class="comparison-selector">
+                <div class="comparison-select">
+                    <label>Casino 1</label>
+                    <select id="compare1" class="form-input" onchange="updateComparison()">
+                        <option value="">Select Casino</option>
+                        <option value="lucky-spin">Lucky Spin Casino</option>
+                        <option value="royal-vegas">Royal Vegas Palace</option>
+                        <option value="diamond-club">Diamond Club Casino</option>
+                        <option value="mega-fortune">Mega Fortune Slots</option>
+                        <option value="turbo-casino">Turbo Casino</option>
+                        <option value="pocket-casino">Pocket Casino Pro</option>
+                        <option value="nova-gaming">Nova Gaming</option>
+                        <option value="easy-start">Easy Start Casino</option>
+                    </select>
+                </div>
+
+                <div class="comparison-select">
+                    <label>Casino 2</label>
+                    <select id="compare2" class="form-input" onchange="updateComparison()">
+                        <option value="">Select Casino</option>
+                        <option value="lucky-spin">Lucky Spin Casino</option>
+                        <option value="royal-vegas">Royal Vegas Palace</option>
+                        <option value="diamond-club">Diamond Club Casino</option>
+                        <option value="mega-fortune">Mega Fortune Slots</option>
+                        <option value="turbo-casino">Turbo Casino</option>
+                        <option value="pocket-casino">Pocket Casino Pro</option>
+                        <option value="nova-gaming">Nova Gaming</option>
+                        <option value="easy-start">Easy Start Casino</option>
+                    </select>
+                </div>
+
+                <div class="comparison-select">
+                    <label>Casino 3</label>
+                    <select id="compare3" class="form-input" onchange="updateComparison()">
+                        <option value="">Select Casino</option>
+                        <option value="lucky-spin">Lucky Spin Casino</option>
+                        <option value="royal-vegas">Royal Vegas Palace</option>
+                        <option value="diamond-club">Diamond Club Casino</option>
+                        <option value="mega-fortune">Mega Fortune Slots</option>
+                        <option value="turbo-casino">Turbo Casino</option>
+                        <option value="pocket-casino">Pocket Casino Pro</option>
+                        <option value="nova-gaming">Nova Gaming</option>
+                        <option value="easy-start">Easy Start Casino</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="comparison-table-container" id="comparisonTable">
+                <p class="comparison-placeholder">Select casinos above to start comparing</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Common questions from new casino players</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Is it safe to play at online casinos?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, it's safe to play at licensed and regulated online casinos. All casinos we recommend are licensed by reputable authorities, use SSL encryption to protect your data, and undergo regular audits. Always verify a casino's license before playing.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>How do I claim a welcome bonus?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>To claim a welcome bonus: 1) Click the "Claim Bonus" button on our site, 2) Register a new account at the casino, 3) Make your first deposit (check minimum amount), 4) The bonus is usually credited automatically, or enter a bonus code if required. Read the terms and conditions for specific requirements.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What are wagering requirements?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Wagering requirements (e.g., 35x) mean you must bet the bonus amount a certain number of times before you can withdraw winnings. For example, a $100 bonus with 35x wagering requires $3,500 in total bets. Different games contribute differently - slots usually count 100%, table games might count less.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Can I play for free first?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! Most online casinos offer demo or free play modes for slots and some table games. This lets you practice and learn games without risking real money. Some casinos also offer no deposit bonuses, giving you free credits or spins to try real money games risk-free.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>How long do withdrawals take?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Withdrawal times vary by casino and payment method. E-wallets (PayPal, Skrill) are fastest (24-48 hours), credit cards take 3-5 days, and bank transfers can take 5-7 days. Some casinos offer instant withdrawals. First withdrawals may take longer due to identity verification.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Do I need to verify my identity?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, most licensed casinos require identity verification (KYC) before your first withdrawal. You'll need to provide a photo ID, proof of address, and sometimes payment method verification. This protects both you and the casino from fraud. The process is usually quick and straightforward.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What games should beginners start with?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Beginners should start with slots - they're easy to understand, don't require strategy, and often contribute fully to wagering requirements. Try classic 3-reel slots first, then move to video slots. For table games, start with roulette (simple bets) or blackjack (basic strategy available). Always use free play mode first.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Are online casinos rigged?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Licensed casinos are not rigged. They use Random Number Generators (RNG) that are regularly tested by independent auditors. The house edge is built into games mathematically - casinos don't need to cheat. Stick to licensed casinos and avoid unlicensed operators. Check for certifications from eCOGRA, iTech Labs, or GLI.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Responsible Gambling Section -->
+    <section class="section responsible-gambling">
+        <div class="container">
+            <div class="responsible-content">
+                <div class="responsible-icon">🛡️</div>
+                <h2>Play Responsibly</h2>
+                <p>Online gambling should be fun and entertaining. If you or someone you know has a gambling problem, help is available.</p>
+                <div class="responsible-links">
+                    <a href="https://www.begambleaware.org" target="_blank" rel="noopener">BeGambleAware.org</a>
+                    <a href="https://www.gamcare.org.uk" target="_blank" rel="noopener">GamCare.org.uk</a>
+                    <a href="https://www.gamblingtherapy.org" target="_blank" rel="noopener">GamblingTherapy.org</a>
+                </div>
+                <div class="responsible-tips">
+                    <p><strong>Tips for Responsible Gambling:</strong></p>
+                    <ul>
+                        <li>✓ Set a budget and stick to it</li>
+                        <li>✓ Never chase losses</li>
+                        <li>✓ Take regular breaks</li>
+                        <li>✓ Don't gamble when stressed or upset</li>
+                        <li>✓ Use deposit limits and self-exclusion if needed</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <img src="assets/logo.svg" alt="Mr Free Slots Logo" class="footer-logo">
+                    <p>Your trusted guide to online casinos. We review casinos, compare bonuses, and provide helpful guides for new players worldwide.</p>
+                    <div class="footer-social">
+                        <a href="#twitter" aria-label="Twitter">🐦</a>
+                        <a href="#facebook" aria-label="Facebook">📘</a>
+                        <a href="#instagram" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#top-casinos">Top Casinos</a></li>
+                        <li><a href="#bonuses">Best Bonuses</a></li>
+                        <li><a href="#guides">Beginner Guides</a></li>
+                        <li><a href="#quiz">Casino Finder</a></li>
+                        <li><a href="#comparison">Compare Casinos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="responsible-gambling.html">Responsible Gambling</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Disclaimer</h4>
+                    <p><small>MrFreeSlots.com is an affiliate marketing website. We may earn commissions from casinos we recommend. Always verify a casino's license and read terms and conditions before playing. 18+ only.</small></p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 MrFreeSlots.com - All Rights Reserved</p>
+                <p><small>Please note: All casino links are placeholder affiliate links. Replace with your actual affiliate URLs.</small></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div class="modal" id="reviewModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('reviewModal')">&times;</button>
+            <div id="reviewModalContent"></div>
+        </div>
+    </div>
+
+    <div class="modal" id="guideModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('guideModal')">&times;</button>
+            <div id="guideModalContent"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
